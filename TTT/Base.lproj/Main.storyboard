@@ -28,21 +28,21 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="120.5" height="165"/>
                                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <connections>
-                                                    <action selector="btn1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aCD-r6-m05"/>
+                                                    <action selector="btnAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="v5q-Wd-di2"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k8m-P7-CMg">
                                                 <rect key="frame" x="127.5" y="0.0" width="120" height="165"/>
                                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <connections>
-                                                    <action selector="btn2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IGz-mt-8Yw"/>
+                                                    <action selector="btnAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="htG-aT-OqX"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g4i-0O-aaa">
                                                 <rect key="frame" x="254.5" y="0.0" width="120.5" height="165"/>
                                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <connections>
-                                                    <action selector="btn3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="72H-qN-3JQ"/>
+                                                    <action selector="btnAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HAD-nb-ucT"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -54,21 +54,21 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="120.5" height="165.5"/>
                                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <connections>
-                                                    <action selector="btn4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="p0X-3l-rPw"/>
+                                                    <action selector="btnAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ENF-Pt-qgb"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g5I-VW-I2w">
                                                 <rect key="frame" x="127.5" y="0.0" width="120" height="165.5"/>
                                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <connections>
-                                                    <action selector="btn5:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kif-q9-a8s"/>
+                                                    <action selector="btnAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tiE-9H-cEU"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eCT-nG-8Rn">
                                                 <rect key="frame" x="254.5" y="0.0" width="120.5" height="165.5"/>
                                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <connections>
-                                                    <action selector="btn6:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hlT-Cj-P2r"/>
+                                                    <action selector="btnAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="84d-UD-BcF"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -80,21 +80,21 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="120.5" height="165"/>
                                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <connections>
-                                                    <action selector="btn7:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bG3-Di-2MF"/>
+                                                    <action selector="btnAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IT3-tq-bbQ"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kdz-Le-2qc">
                                                 <rect key="frame" x="127.5" y="0.0" width="120" height="165"/>
                                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <connections>
-                                                    <action selector="btn8:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HFQ-Fk-cLu"/>
+                                                    <action selector="btnAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qxs-QB-ZCt"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4ed-oz-RQd">
                                                 <rect key="frame" x="254.5" y="0.0" width="120.5" height="165"/>
                                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <connections>
-                                                    <action selector="btn9:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WM5-1c-mK7"/>
+                                                    <action selector="btnAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fwg-q1-a4b"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -120,6 +120,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jjh-9o-SQ2">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="37"/>
                                         <state key="normal" title="Reset"/>
+                                        <connections>
+                                            <action selector="resetClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="U2d-sl-YTh"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -164,6 +167,27 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="btn1" destination="ab5-Bx-w6K" id="xMg-mP-yEh"/>
+                        <outlet property="btn2" destination="k8m-P7-CMg" id="AJr-fN-1yR"/>
+                        <outlet property="btn3" destination="g4i-0O-aaa" id="gpP-D6-svH"/>
+                        <outlet property="btn4" destination="9mT-6y-7FE" id="drS-PL-6gv"/>
+                        <outlet property="btn5" destination="g5I-VW-I2w" id="7Xu-pB-DFH"/>
+                        <outlet property="btn6" destination="eCT-nG-8Rn" id="Mfa-5q-9VI"/>
+                        <outlet property="btn7" destination="kX0-ot-8MF" id="83R-hx-5Ie"/>
+                        <outlet property="btn8" destination="Kdz-Le-2qc" id="FP8-oY-buh"/>
+                        <outlet property="btn9" destination="4ed-oz-RQd" id="WkJ-9J-cZe"/>
+                        <outlet property="winnerLabel" destination="Zx7-i9-e2m" id="Lr5-0G-eKA"/>
+                        <outletCollection property="buttons" destination="ab5-Bx-w6K" collectionClass="NSMutableArray" id="TD3-JN-PRD"/>
+                        <outletCollection property="buttons" destination="k8m-P7-CMg" collectionClass="NSMutableArray" id="e5h-Y8-Znl"/>
+                        <outletCollection property="buttons" destination="g4i-0O-aaa" collectionClass="NSMutableArray" id="ZoM-gr-Th6"/>
+                        <outletCollection property="buttons" destination="9mT-6y-7FE" collectionClass="NSMutableArray" id="sF0-3M-pVD"/>
+                        <outletCollection property="buttons" destination="g5I-VW-I2w" collectionClass="NSMutableArray" id="1Nj-pW-ITO"/>
+                        <outletCollection property="buttons" destination="eCT-nG-8Rn" collectionClass="NSMutableArray" id="sps-e0-89w"/>
+                        <outletCollection property="buttons" destination="kX0-ot-8MF" collectionClass="NSMutableArray" id="lcb-gC-oBL"/>
+                        <outletCollection property="buttons" destination="Kdz-Le-2qc" collectionClass="NSMutableArray" id="dCB-RC-G0t"/>
+                        <outletCollection property="buttons" destination="4ed-oz-RQd" collectionClass="NSMutableArray" id="ieM-V2-uWe"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

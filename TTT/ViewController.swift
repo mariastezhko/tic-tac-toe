@@ -45,7 +45,7 @@ class ViewController: UIViewController {
                 }
             case btn3:
                 btnClick(button: btn3)
-                if ((btn2.backgroundColor == btn3.backgroundColor) && (btn1.backgroundColor == btn3.backgroundColor)) || ((btn4.backgroundColor == btn3.backgroundColor) && (btn7.backgroundColor == btn3.backgroundColor)) || ((btn5.backgroundColor == btn3.backgroundColor) && (btn9.backgroundColor == btn3.backgroundColor)) {
+                if ((btn2.backgroundColor == btn3.backgroundColor) && (btn1.backgroundColor == btn3.backgroundColor)) || ((btn5.backgroundColor == btn3.backgroundColor) && (btn7.backgroundColor == btn3.backgroundColor)) || ((btn6.backgroundColor == btn3.backgroundColor) && (btn9.backgroundColor == btn3.backgroundColor)) {
                     print("Congrats \(currentColor) won!")
                     winnerLabel.text = "Congrats \(currentColor) won!"
                     buttonsDisable()
@@ -80,7 +80,7 @@ class ViewController: UIViewController {
             }
             case btn8:
                 btnClick(button: btn8)
-                if ((btn2.backgroundColor == btn2.backgroundColor) && (btn5.backgroundColor == btn2.backgroundColor)) || ((btn7.backgroundColor == btn2.backgroundColor) && (btn9.backgroundColor == btn2.backgroundColor)) {
+                if ((btn2.backgroundColor == btn8.backgroundColor) && (btn5.backgroundColor == btn8.backgroundColor)) || ((btn7.backgroundColor == btn8.backgroundColor) && (btn9.backgroundColor == btn8.backgroundColor)) {
                     print("Congrats \(currentColor) won!")
                     winnerLabel.text = "Congrats \(currentColor) won!"
                     buttonsDisable()
@@ -98,7 +98,13 @@ class ViewController: UIViewController {
     }
     
     @IBAction func resetClicked(_ sender: UIButton) {
-        reset()
+        clickCount = 0
+        currentColor = "gray"
+        for i in 0..<buttons.count {
+            buttons[i].backgroundColor = UIColor.lightGray
+            print("Enabling \(buttons[i])")
+            buttons[i].isEnabled = true
+        }
     }
     
 
@@ -134,14 +140,7 @@ class ViewController: UIViewController {
             }
         }
         
-    func reset() {
-        clickCount = 0
-        currentColor = "gray"
-        for i in 0..<buttons.count {
-            buttons[i].backgroundColor = UIColor.lightGray
-            buttons[i].isEnabled = true
-        }
-    }
+
     func buttonsDisable() {
         for i in 0..<buttons.count {
             buttons[i].isEnabled = false
